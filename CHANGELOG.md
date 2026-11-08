@@ -4,9 +4,13 @@ All notable changes to Tally. The format follows [Keep a Changelog](https://keep
 
 ## [Unreleased]
 
+## MLH Solana Hackathon edition - 2026-11-08
+
 ### Added
 - MLH Solana Hackathon edition: README, docs and pitch slides point to the MLH Solana Hackathon (AI Track), with the official MLH and Solana marks in `docs/brand/partners/`.
 - `docs/video/`: the 3:40 demo film with an MLH Solana Hackathon end card.
+- README images and GIFs served from Cloudflare.
+- Release v1.2.0 published on this repository with the APK and the demo film.
 - [docs/VERIFY.md](docs/VERIFY.md): a reviewer's audit guide (shipped vs. research, test commands with expected counts, explorer evidence, a code map of the ten invariants, merchant status).
 - Community files: Code of Conduct, contributing guide, security policy, issue and pull request templates.
 
