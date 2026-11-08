@@ -85,6 +85,4 @@ All notable changes to Tally. The format follows [Keep a Changelog](https://keep
 - LiteSVM threat-model suite asserting each attack's exact revert code.
 
 [Unreleased]: https://github.com/LSUDOKO/Tally-Solana/compare/v1.2.0...HEAD
-[1.2.0]: https://github.com/LSUDOKO/Tally-Solana/compare/v1.1.0...v1.2.0
-[1.1.0]: https://github.com/LSUDOKO/Tally-Solana/compare/v1.0.0...v1.1.0
-[1.0.0]: https://github.com/LSUDOKO/Tally-Solana/releases/tag/v1.0.0
+[1.2.0]: https://github.com/LSUDOKO/Tally-Solana/releases/tag/v1.2.0
