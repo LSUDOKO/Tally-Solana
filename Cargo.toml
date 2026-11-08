@@ -1,0 +1,18 @@
+[workspace]
+resolver = "2"
+members = ["crates/tally-core", "programs/tally", "tests/litesvm"]
+
+[workspace.package]
+edition = "2021"
+license = "MIT"
+repository = "https://github.com/LSUDOKO/Tally-Solana"
+
+[profile.release]
+overflow-checks = true
+lto = "fat"
+codegen-units = 1
+
+# Test builds pull in the whole Agave runtime (LiteSVM); skipping debug info keeps target/ small.
+[profile.dev]
+debug = 0
+incremental = false
