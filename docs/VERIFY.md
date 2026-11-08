@@ -54,12 +54,12 @@ Program: [`3ofJTv8x…djqk`](https://explorer.solana.com/address/3ofJTv8xX68aFTQ
 
 | Transaction | Expected on Explorer |
 |---|---|
-| [Honest purchase, $4.50 oat latte](https://explorer.solana.com/tx/5X3yy6tRD3nVwSWK5vFBf3shBMN8hJDksrby8kk1PUyeykkkGZCKY73i16VJta9RfpDA2piYZz7tsFoqYtWZwcF?cluster=devnet) | **Success.** Instructions: Ed25519 precompile, then `pay_offer`. USDC moves vault → the merchant's registered payout. |
-| [Payee swap](https://explorer.solana.com/tx/4eCo3iQviYdcfnjLxqyETCoWZTCqFskQX3uBieXeEeR9vNfVPVwK2wcQnEQ75As8p7Qw6TkyvmejuAtLN6XBvPCE?cluster=devnet) | **Failed, custom error 2001** (`has_one` payout constraint). No token movement. |
-| [Phantom $2.99 add-on](https://explorer.solana.com/tx/4oot9a8F18zqqAFXjK6ntL7uKEh8s93LuaMMBqqb5shNwtqbUE8GUdsQpaghyAjH7sosj2wdoRm6yPDwbsxDx8NS?cluster=devnet) | **Failed, 6009 NotOnMenu**: the leaf isn't under the signed Merkle root. |
-| [Stale menu replay](https://explorer.solana.com/tx/3wmMJMoqVCwAM2kgjktfyZssyCCWhYDTmLzr9o9kjP9EgkTirBhX15gFQVShuKCZCJ9amTtsCbv3rQJcijYHJkzH?cluster=devnet) | **Failed, 6007 Stale**: outside the 150-slot window. |
-| [Whisper upsell, agent alone](https://explorer.solana.com/tx/8PMbmycaGYKJr17VPQCEkqyn7qaR7uapAWH6pT5oXEGG45wor122am1M7RR8tEkPiXdATcRdRSkbroHRrXcyszd?cluster=devnet) | **Failed, 6013 OwnerCosignRequired**: pricier than the cheapest match. |
-| [Same upsell, owner co-signed](https://explorer.solana.com/tx/56gBBA1r2CyJZ12f9udR8Mt9NJcrw11M84R2JBCc5qehkKo33VqSL4qRKcRV8g5LDSXpk5s6js6o3AX7C7rrmMH7?cluster=devnet) | **Success** with two signers: agent + owner. |
+| [Honest purchase, $4.50 oat latte](https://explorer.solana.com/tx/2upSDTWwQwR1VtcoMUeov9iWMjoSDCEjXDmuZVZgLNQSJiUdj8EN8aCXapsdanrit1Af8RRjXhpUYQAyhzKnjeup?cluster=devnet) | **Success.** Instructions: Ed25519 precompile, then `pay_offer`. USDC moves vault → the merchant's registered payout. |
+| [Payee swap](https://explorer.solana.com/tx/3xEJiFBnxHaqc9JQvnhSE176owTQmQgyEn8RuHmYH1cq9RQQGHmaxWELBinNip3vCr494oWfR4NFNKMrPJPb9kjP?cluster=devnet) | **Failed, custom error 2001** (`has_one` payout constraint). No token movement. |
+| [Phantom $2.99 add-on](https://explorer.solana.com/tx/65evnJ8K8RX7xKrsJqae63B12ZVMyep46TVncMvrPxJjzAVdNSaghcBDDTtjZuNqh87mHZAkmiZVsv5Mbp9BEZ1e?cluster=devnet) | **Failed, 6009 NotOnMenu**: the leaf isn't under the signed Merkle root. |
+| [Stale menu replay](https://explorer.solana.com/tx/tAUDLirVJxbo8oChz9yvrj3PnvrWBScUjmm6ZmKLqvdSr8LuUkdByCg28BfqF3GBgT49sSVNvAdK9UPybLVKp7c?cluster=devnet) | **Failed, 6007 Stale**: outside the 150-slot window. |
+| [Whisper upsell, agent alone](https://explorer.solana.com/tx/46ZUuhtJAJjod23t2HrHUrwJnhXjGmCoEU3RbJFGrbn8YN8coSfajkCGoEzmYe7P4ZfUEpLKxcVnnhd8acHk5NxC?cluster=devnet) | **Failed, 6013 OwnerCosignRequired**: pricier than the cheapest match. |
+| [Same upsell, owner co-signed](https://explorer.solana.com/tx/2X181TjDs6T5JzvcryxABgeCzkbn1gfWosQFfCC2iz1KbGapedvyu2RozfLwGT6ASUF2ZRGDntATL4Tq2FD5kzeo?cluster=devnet) | **Success** with two signers: agent + owner. |
 | [Real phone: Second Look approved in Solflare](https://explorer.solana.com/tx/58ePPqG3hK7TWYzXYtsoJXn5iSaNYX2tN8R67uzRhs2TA3esUx8Nb1CQPNqoAag7bxhcTwg2fgNWKLtzBbaHEGyD?cluster=devnet) | **Success**: agent key (Android Keystore) + owner (Solflare via MWA) in one transaction. |
 | [Real phone: capsule created with a Seeker Genesis Token](https://explorer.solana.com/tx/5C5pkK2Q48DkbNoPLcDBQB1vLNtBMAL1HhbEqpkCR3DAaSf2eHrM838J7Hpixk2pZqxiMfPiaTX962eE67ABrBax?cluster=devnet) | **Success**: the program reads the token's group (mock collection on devnet). |
 
