@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Report a security vulnerability
+    url: https://github.com/LSUDOKO/Tally-Solana/security/advisories/new
+    about: Please report security issues privately, not as a public issue.
+  - name: Verify Tally yourself
+    url: https://github.com/LSUDOKO/Tally-Solana/blob/main/docs/VERIFY.md
+    about: Tests, explorer evidence and the code map, for reviewers and judges.
+  - name: Watch the demo
+    url: https://github.com/LSUDOKO/Tally-Solana/blob/main/docs/video/tally-mlh-solana-demo.mp4
+    about: The full product walkthrough on a real phone.
